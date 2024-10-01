@@ -1,2 +1,2 @@
 # MyKotlinBase
-私人kotlin练习2
+私人kotlin
