@@ -17,7 +17,7 @@ fun allowNull() {
 }
 
 // let的安全调用
-fun letFunc() {
+private fun letFunc() {
     var name: String? = null
     var r = name?.let {
 
