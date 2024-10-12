@@ -1,6 +1,10 @@
 package com.oasis.mykotlinbase
 
 // 密封类
+/**
+ * 通过sealed关键字声明密封类
+ * 密封类同一个模块或包中可以随意继承，并且子类也可以是密封的
+ */
 
 sealed class Exams{
     object Fraction1: Exams()

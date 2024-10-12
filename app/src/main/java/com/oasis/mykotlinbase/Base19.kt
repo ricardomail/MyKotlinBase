@@ -7,6 +7,7 @@ class Base19 {
 // 会自动生成解构，equals, copy, toString hashcode
 // 默认生成的toString,hashCode, equals只管主构造函数，如果存在其他重要信息，需要自己重写
 // 数据类至少有一个参数的主构造函数，必须有var val的参数，不能被继承
+// 不能是抽象的，密封的或内部的
 // 使用条件 1. 服务器请求返回响应 2. 需要进行比较，copy，toString，解构等这些功能时可以使用
 data class Response(val name: String, val age: Int) {
     var info: String = ""

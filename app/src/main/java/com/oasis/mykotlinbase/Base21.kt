@@ -12,6 +12,7 @@ class LimbsInfo(val limbsInfo: String, val length: Int) {
 }
 
 // 主构造参数必须和枚举的参数保持一致
+// 枚举可以包含成员
 enum class Limbs(private val limbsInfo: LimbsInfo) {
     LEFT_HAND(LimbsInfo("左手", 88)), RIGHT_HAND(LimbsInfo("右手", 88)), LEFT_FOOT(
         LimbsInfo(
@@ -23,6 +24,9 @@ enum class Limbs(private val limbsInfo: LimbsInfo) {
     fun show() {
         println("${limbsInfo.limbsInfo}的长度是:${limbsInfo.length}")
     }
+    // 也可以写抽象函数
+//    abstract fun test();
+    //可以继承接口
 }
 
 fun main() {

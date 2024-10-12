@@ -1,5 +1,8 @@
 package com.oasis.mykotlinbase
 
+/**
+ * 所有的集合类都继承自Collection
+ */
 fun main() {
     listFunc4()
 }
